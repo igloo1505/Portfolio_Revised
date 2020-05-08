@@ -19,7 +19,7 @@ const ContactForm = () => {
       M.toast({ html: "Oh no. Please fill this out completely!" });
     } else {
       let submission = { name, email, message };
-      //!! come back to this.. Heroku's being a pain
+      // M.toast({ html: "Don't forget to connect this to backend" });
       const res = await Axios.post("/contactInput", submission, config);
       console.log(`submission: ${submission}`);
       console.log(`response: ${res}`);
@@ -73,7 +73,7 @@ const ContactForm = () => {
           </div>
         </div>
         <button
-          className="btn waves-effect waves-light formSubmitBtn"
+          className="btn waves-effect waves-light cyan accent-4 formSubmitBtn"
           type="submit"
           name="submit"
           style={{
