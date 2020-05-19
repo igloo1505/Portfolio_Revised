@@ -10,7 +10,7 @@
 }
 
 .navBar {
-  border-bottom: 1px solid hsla(0, 0%, 80%, .8);
+  border-bottom: 1px solid hsla(0, 0%, 80%, 0.8);
   background-color: #00000033;
   top: 0;
   overflow: hidden;
@@ -36,8 +36,6 @@
   border-left: 2px solid #ffff;
   /* background: linear-gradient(90deg, #bacfbf 0%, #b7ccc3 100%); */
 }
-
-
 
 @media only screen and (max-width: 600px) {
   .formIcon {
@@ -66,17 +64,14 @@
   }
 }
 
-
-
 /* Import from prior verison begins here */
-
 
 #nav {
   border-bottom: 1px solid #cccc;
   background-color: #fff;
 }
 
-.figurativeNothing>a {
+.figurativeNothing > a {
   color: #777777;
 }
 
@@ -128,7 +123,6 @@
     overflow-y: hidden;
   }
 
-
   .portfolioLayout {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -145,15 +139,15 @@
 
 @media only screen and (max-width: 500px) {
   .conditionalPrefix {
-    display: none !important
+    display: none !important;
   }
 
   .mobileTweak {
-    padding-left: 0
+    padding-left: 0;
   }
 }
 
-.nav-wrapper>.brand-logo {
+.nav-wrapper > .brand-logo {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -177,17 +171,14 @@
 
 .infoCard {
   width: 80%;
-
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
 }
 
-.activeSection>a {
+.activeSection > a {
   color: #fff;
 }
-
-
 
 .mainSection {
   min-height: calc(100vh - 164px);
@@ -200,7 +191,6 @@
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
 }
 
 .col {
@@ -209,3 +199,9 @@
 }
 
 /* Import from prior version ends here */
+
+@media only screen and (max-width: 600px) {
+  .ProfileImage {
+    display: none;
+  }
+}

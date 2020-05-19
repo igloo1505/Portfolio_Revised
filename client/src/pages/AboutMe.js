@@ -6,8 +6,8 @@ const AboutMe = () => {
     <div className="row container">
       <div className="infoCardHeader">About Me</div>
       <div className="infoCard row">
-        <div className="col s6">
-          <img src={TempImage} alt="" className="RandomDude align-left" />
+        <div className="col s6 ProfileImage">
+          <img src={TempImage} alt="" className="Image align-left" />
         </div>
 
         <p>
