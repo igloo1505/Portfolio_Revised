@@ -1,0 +1,50 @@
+[{
+        "piece": "Inventory",
+        "id": "1",
+        "image": "../assets/ID_logo192_circular.png",
+        "title": "Inventory Application",
+        "repo": "https://github.com/igloo1505/InventoryTrackingApp",
+        "live": "https://igloo-inventory.herokuapp.com/",
+        "description": "This is still a work in progress. I eventually plan to integrate with a native application and take advantage of the camera for scanning capabilities"
+    },
+    {
+        "piece": "phone_list",
+        "id": "2",
+        "image": "../assets/ID_logo192_circular.png",
+        "title": "Simple contact collector",
+        "repo": "https://github.com/igloo1505/phoneList",
+        "live": "https://generic-phone-list.herokuapp.com/",
+        "description": "A very simple contact sharing application. Put together really only as an example of what can be built very quickly when any sort of security isn't needed, such as sharing contact information at a meetup in place of handing out business cards."
+    },
+    {
+        "piece": "jeopardy",
+        "id": "5",
+        "repo": "https://github.com/igloo1505/GenericJeopardy",
+        "live": "https://igloo-jeopardy.herokuapp.com/",
+        "image": "../assets/ID_logo192_circular.png",
+        "title": "Mock Jeopardy",
+        "description": "A game put together using React, express and the context API. Shares question answer pairs across users. Master password to register is Iglooworks"
+    },
+    {
+        "piece": "Coming soon",
+        "id": "3",
+        "image": "../assets/ID_logo192_circular.png",
+        "title": "Coming soon...",
+        "description": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis molestiae saepe fugit asperiores dolorum rerum? Quaerat nesciunt maiores alias autem."
+    },
+    {
+        "piece": "Coming soon",
+        "id": "4",
+        "image": "../assets/ID_logo192_circular.png",
+        "title": "Coming soon...",
+        "description": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis molestiae saepe fugit asperiores dolorum rerum? Quaerat nesciunt maiores alias autem."
+    },
+
+    {
+        "piece": "Coming soon",
+        "id": "6",
+        "image": "../assets/ID_logo192_circular.png",
+        "title": "Coming soon...",
+        "description": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis molestiae saepe fugit asperiores dolorum rerum? Quaerat nesciunt maiores alias autem."
+    }
+]

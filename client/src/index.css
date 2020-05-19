@@ -65,3 +65,147 @@
     display: none;
   }
 }
+
+
+
+/* Import from prior verison begins here */
+
+
+#nav {
+  border-bottom: 1px solid #cccc;
+  background-color: #fff;
+}
+
+.figurativeNothing>a {
+  color: #777777;
+}
+
+.portfolioLayout {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.demoLinks a {
+  padding: 0px 10px;
+}
+
+.RandomDude {
+  /* Yes... I know this will distort it but I'm horrible with photoshop */
+  --size-scale-width: 100px;
+  --size-scale-height: 67px;
+  display: block;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: inline;
+  margin: 20px 40px 20px 0px;
+}
+
+.mobileTweak {
+  padding-left: 3rem;
+}
+
+@media only screen and (max-width: 1050px) {
+  .main {
+    overflow-y: hidden;
+  }
+
+  .portfolioLayout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .RandomDude {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main {
+    overflow-y: hidden;
+  }
+
+
+  .portfolioLayout {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .RandomDude {
+    display: none;
+  }
+}
+
+.mobileTweak {
+  padding-left: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .conditionalPrefix {
+    display: none !important
+  }
+
+  .mobileTweak {
+    padding-left: 0
+  }
+}
+
+.nav-wrapper>.brand-logo {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.formRow {
+  background-color: #fff;
+}
+
+.activeSection {
+  background-color: #4aaaa5;
+}
+
+.infoCardHeader {
+  width: 90%;
+  margin: auto;
+  font-size: 1.5rem;
+  line-height: 5rem;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.infoCard {
+  width: 80%;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.activeSection>a {
+  color: #fff;
+}
+
+
+
+.mainSection {
+  min-height: calc(100vh - 164px);
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255);
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.col {
+  width: 50%;
+  display: inline-block;
+}
+
+/* Import from prior version ends here */
