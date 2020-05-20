@@ -3,7 +3,7 @@ import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import MobileBtn from "./components/MobileBtn";
+
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <MobileBtn />
+
         <Switch>
           <Route exact path="/" component={AboutMe} />
           <Route exact path="/portfolio" component={Portfolio} />
