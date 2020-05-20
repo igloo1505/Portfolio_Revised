@@ -1,6 +1,11 @@
 import React from "react";
-import tempImage from "../assets/ID_logo192_circular.png";
 import "../assets/colored_transparent.png";
+import "../assets/inventoryData.png";
+import "../assets/inventoryList.png";
+import "../assets/jeopardyAdmin.png";
+import "../assets/jeopardyPlay.png";
+import "../assets/phoneList.png";
+import "../assets/triviaList.png";
 
 const PortItem = ({ piece }) => {
   console.log(piece.image);
