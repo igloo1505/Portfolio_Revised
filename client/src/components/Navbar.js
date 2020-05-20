@@ -15,6 +15,7 @@ const Navbar = () => {
             href="#"
             data-target="mobileMenu"
             class="sidenav-trigger black-text text-darken-2"
+            style={{ marginLeft: "0px" }}
           >
             <i class="material-icons">menu</i>
           </a>
@@ -37,20 +38,24 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+
       <ul class="sidenav" id="mobileMenu">
         <li style={{ marginTop: "20px" }}>
           <Link to="/">
-            <i className="material-icons left">perm_identity</i>About Me
+            <i className="material-icons left ">perm_identity</i>
+            <span className="mobileNavLink">About Me</span>
           </Link>
         </li>
         <li>
           <Link to="/portfolio">
-            <i className="material-icons left">lightbulb_outline</i>My Work
+            <i className="material-icons left ">lightbulb_outline</i>
+            <span className="mobileNavLink">My Work</span>
           </Link>
         </li>
         <li>
           <Link to="/contact">
-            <i className="material-icons left">email</i>Contact Me
+            <i className="material-icons left ">email</i>
+            <span className="mobileNavLink">Contact Me</span>
           </Link>
         </li>
       </ul>

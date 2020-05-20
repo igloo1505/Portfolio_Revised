@@ -39,6 +39,9 @@ form {
   border-right: 2px solid #ffff;
   border-left: 2px solid #ffff;
 }
+.mobileNavLink {
+  font-size: 2rem;
+}
 
 .techIcons {
   margin: 2rem;
