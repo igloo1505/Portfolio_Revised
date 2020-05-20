@@ -42,6 +42,9 @@ form {
 .mobileNavLink {
   font-size: 2rem;
 }
+.mobileLi {
+  padding-top: 1.5rem;
+}
 
 .techIcons {
   margin: 2rem;
@@ -79,6 +82,12 @@ form {
 @media only screen and (max-width: 600px) {
   .formIcon {
     display: none;
+  }
+  .mobileTextAdjust {
+    font-size: 2rem;
+  }
+  .mobileTextAdjustLarge {
+    font-size: 2.5rem !important;
   }
   .techIcons {
     margin: 7px;

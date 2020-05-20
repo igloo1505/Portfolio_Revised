@@ -19,7 +19,7 @@ const PortItem = ({ piece }) => {
         />
       </div>
       <div className="card-content">
-        <span className="card-title activator grey-text text-darken-4">
+        <span className="card-title activator grey-text text-darken-4 ">
           {piece.title}
           <i className="material-icons right">more_vert</i>
         </span>
@@ -29,11 +29,11 @@ const PortItem = ({ piece }) => {
         </p>
       </div>
       <div className="card-reveal">
-        <span className="card-title grey-text text-darken-4">
+        <span className="card-title grey-text text-darken-4 mobileTextAdjustLarge">
           {piece.title}
           <i className="material-icons right">close</i>
         </span>
-        <p>{piece.description}</p>
+        <p className="mobileTextAdjust">{piece.description}</p>
       </div>
     </div>
   );

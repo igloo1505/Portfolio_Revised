@@ -40,19 +40,19 @@ const Navbar = () => {
       </div>
 
       <ul class="sidenav" id="mobileMenu">
-        <li style={{ marginTop: "20px" }}>
+        <li className="mobileLi" style={{ marginTop: "20px" }}>
           <Link to="/">
             <i className="material-icons left ">perm_identity</i>
             <span className="mobileNavLink">About Me</span>
           </Link>
         </li>
-        <li>
+        <li className="mobileLi">
           <Link to="/portfolio">
             <i className="material-icons left ">lightbulb_outline</i>
             <span className="mobileNavLink">My Work</span>
           </Link>
         </li>
-        <li>
+        <li className="mobileLi">
           <Link to="/contact">
             <i className="material-icons left ">email</i>
             <span className="mobileNavLink">Contact Me</span>
