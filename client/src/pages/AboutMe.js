@@ -1,5 +1,6 @@
 import React from "react";
 import TempImage from "../assets/ID_logo192_circular.png";
+import TechIcons from "../components/TechIcons";
 
 const AboutMe = () => {
   return (
@@ -40,6 +41,7 @@ const AboutMe = () => {
           officiis itaque.
         </p>
       </div>
+      <TechIcons />
     </div>
   );
 };

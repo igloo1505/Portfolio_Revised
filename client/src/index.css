@@ -38,12 +38,48 @@ form {
   display: inline-block;
   border-right: 2px solid #ffff;
   border-left: 2px solid #ffff;
-  /* background: linear-gradient(90deg, #bacfbf 0%, #b7ccc3 100%); */
+}
+
+.techIcons {
+  margin: 2rem;
+  font-size: 5rem;
+  margin-top: 60px;
+}
+
+.techIconContainer {
+  text-align: center;
+  transform: translateX(-5px);
+  margin-bottom: 30px;
+}
+.htmlIcon {
+  color: #e64c22;
+}
+.cssIcon {
+  color: #036fbb;
+}
+.jsIcon {
+  color: #f0d91f;
+}
+.reactIcon {
+  color: #61dbfc;
+}
+.nodeIcon {
+  color: #82cd29;
+}
+.npmIcon {
+  color: #cb3837;
+}
+.gitIcon {
+  color: #f05133;
 }
 
 @media only screen and (max-width: 600px) {
   .formIcon {
     display: none;
+  }
+  .techIcons {
+    margin: 7px;
+    font-size: 2.3rem;
   }
 
   .mobileAdjust {
