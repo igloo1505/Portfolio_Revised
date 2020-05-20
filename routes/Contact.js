@@ -1,10 +1,12 @@
 const express = require("express");
 const router = express.Router();
+
 const Contact = require("../models/Contact");
 require("colors");
 
 router.post("/", async (req, res) => {
   console.log("backend reached".red);
+
   const { name, email, message } = req.body;
   try {
     const newContact = new Contact({

@@ -17,9 +17,9 @@ const MobileBtn = () => {
           <i className="large material-icons">compare_arrows</i>
         </Link>
         <ul>
-          <li className="btn-floating  green ">
-            <Link to="/contact" onClick={(e) => closeModal()}>
-              <i className="material-icons">email</i>
+          <li className="btn-floating light-blue lighten-3">
+            <Link to="/" onClick={(e) => closeModal()}>
+              <i className="material-icons">perm_identity</i>
             </Link>
           </li>
           <li className="btn-floating  light-green accent-3">
@@ -27,9 +27,9 @@ const MobileBtn = () => {
               <i className="material-icons">lightbulb_outline</i>
             </Link>
           </li>
-          <li className="btn-floating light-blue lighten-3">
-            <Link to="/" onClick={(e) => closeModal()}>
-              <i className="material-icons">perm_identity</i>
+          <li className="btn-floating  green ">
+            <Link to="/contact" onClick={(e) => closeModal()}>
+              <i className="material-icons">email</i>
             </Link>
           </li>
         </ul>

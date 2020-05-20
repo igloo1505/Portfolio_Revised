@@ -26,7 +26,11 @@
 .formRow {
   max-width: min(700px, 80%);
   margin: 50px auto;
-  background-color: #fff;
+  /* background-color: rgba(255, 255, 255, 0.7); */
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .navBarLogo {
@@ -86,18 +90,6 @@
   padding: 0px 10px;
 }
 
-.RandomDude {
-  /* Yes... I know this will distort it but I'm horrible with photoshop */
-  --size-scale-width: 100px;
-  --size-scale-height: 67px;
-  display: block;
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-  display: inline;
-  margin: 20px 40px 20px 0px;
-}
-
 .mobileTweak {
   padding-left: 3rem;
 }
@@ -150,10 +142,6 @@
 .nav-wrapper > .brand-logo {
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.formRow {
-  background-color: #fff;
 }
 
 .activeSection {

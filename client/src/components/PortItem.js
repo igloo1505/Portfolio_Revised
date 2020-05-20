@@ -1,14 +1,15 @@
 import React from "react";
 import tempImage from "../assets/ID_logo192_circular.png";
+import "../assets/colored_transparent.png";
 
 const PortItem = ({ piece }) => {
-  console.log(piece);
+  console.log(piece.image);
   return (
     <div className="card small">
       <div className="card-image waves-effect waves-block waves-light">
         <img
           className="activator"
-          src={tempImage}
+          src={piece.image}
           alt="oh no. remind me to fix this"
         />
       </div>

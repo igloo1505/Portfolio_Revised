@@ -23,12 +23,11 @@
   },
   "homepage": "https://github.com/igloo1505/Portfolio_Revised#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "config": "^3.3.1",
     "express": "^4.17.1",
     "mongodb": "^3.5.7",
-    "mongoose": "^5.9.12",
-    "nodemailer": "^6.4.6",
-    "colors": "^1.4.0"
+    "mongoose": "^5.9.12"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",

@@ -19,7 +19,6 @@ const ContactForm = () => {
       M.toast({ html: "Oh no. Please fill this out completely!" });
     } else {
       let submission = { name, email, message };
-      // M.toast({ html: "Don't forget to connect this to backend" });
       const res = await Axios.post("/contactInput", submission, config);
       console.log(`submission: ${submission}`);
       console.log(`response: ${res}`);
