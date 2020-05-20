@@ -14,7 +14,7 @@ const Navbar = () => {
           <a
             href="#"
             data-target="mobileMenu"
-            class="sidenav-trigger black-text text-darken-2"
+            class="sidenav-trigger black-text text-darken-2 triggerButton"
             style={{ marginLeft: "0px" }}
           >
             <i class="material-icons">menu</i>

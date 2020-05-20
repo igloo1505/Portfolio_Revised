@@ -86,6 +86,15 @@ form {
   .mobileTextAdjust {
     font-size: 2rem;
   }
+  .navBar {
+    height: 76px;
+  }
+  .navBarLogo {
+    height: 76px;
+  }
+  .triggerButton {
+    transform: translateX(-30px);
+  }
   .mobileTextAdjustLarge {
     font-size: 2.5rem !important;
   }

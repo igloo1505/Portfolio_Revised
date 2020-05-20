@@ -11,7 +11,7 @@ const AboutMe = () => {
           <img src={TempImage} alt="" className="Image align-left" />
         </div>
 
-        <p className="aboutMeText">
+        <p className="mobileTextAdjust">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit
           minus distinctio? Fuga amet libero possimus facilis, eaque,
           consequuntur quos explicabo commodi consectetur quisquam error vero
@@ -22,14 +22,14 @@ const AboutMe = () => {
           quo sunt. Aut deserunt adipisci sed iusto quisquam impedit magnam eius
           consectetur! Natus repellendus magni repellat hic nostrum rem beatae,{" "}
         </p>
-        <p className="aboutMeText">
+        <p className="mobileTextAdjust">
           aut vero facilis temporibus explicabo facere non labore illo ex qui
           accusantium id odio laborum porro maxime molestiae cupiditate cumque.
           Sunt, repellendus. Cupiditate vitae quaerat veniam facere at, nisi
           assumenda repudiandae dolore a, sapiente excepturi nemo, ipsa fugiat
           minus molestias dolorum expedita fugit!{" "}
         </p>
-        <p className="aboutMeText">
+        <p className="mobileTextAdjust">
           Quisquam nobis est nisi corrupti aliquid illum possimus explicabo
           totam dolores vitae dicta distinctio fuga quis autem ullam, temporibus
           in tempore repudiandae odit officiis eveniet animi? Laboriosam maiores
