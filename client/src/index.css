@@ -159,6 +159,18 @@ form {
     font-size: 2.5rem;
   }
 
+  .portItemDescription {
+    font-size: 2rem;
+  }
+
+  .portItemTitle {
+    font-size: 3.2rem;
+  }
+
+  .demoLinks {
+    font-size: 2rem;
+  }
+
   .formMobileAdjust {
     font-size: 2.5rem !important;
     line-height: 2.5rem;

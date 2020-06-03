@@ -20,7 +20,7 @@ const PortItem = ({ piece }) => {
       </div>
       <div className="card-content">
         <span className="card-title activator grey-text text-darken-4 ">
-          {piece.title}
+          <p className="portItemTitle">{piece.title}</p>
           <i className="material-icons right">more_vert</i>
         </span>
         <p className="demoLinks">
@@ -30,10 +30,10 @@ const PortItem = ({ piece }) => {
       </div>
       <div className="card-reveal">
         <span className="card-title grey-text text-darken-4 ">
-          {piece.title}
+          <p className="portItemTitle">{piece.title}</p>
           <i className="material-icons right">close</i>
         </span>
-        <p>{piece.description}</p>
+        <p className="portItemDescription">{piece.description}</p>
       </div>
     </div>
   );
