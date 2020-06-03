@@ -212,7 +212,9 @@ form {
   }
 
   .formSubmitBtn {
-    height: 3.5rem;
+    height: 4.5rem;
+
+    /* height: 3rem; */
     line-height: 2.5rem;
   }
 

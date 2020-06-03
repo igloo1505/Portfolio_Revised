@@ -31,6 +31,9 @@ const ContactForm = (props) => {
       setName("");
       setEmail("");
       setMessage("");
+      setTimeout(() => {
+        window.location.pathname = "/";
+      }, 1500);
     }
   };
   return (
@@ -46,10 +49,10 @@ const ContactForm = (props) => {
               id="name"
               type="text"
               value={name}
-              className="validate"
+              className="validate formMobileAdjustInput"
               onChange={(e) => setName(e.target.value)}
             />
-            <label htmlFor="name" className="formMobileAdjust">
+            <label htmlFor="name">
               <p className="formMobileAdjust">Name</p>
             </label>
           </div>
