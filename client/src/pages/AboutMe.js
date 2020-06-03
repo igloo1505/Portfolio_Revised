@@ -33,18 +33,18 @@ const AboutMe = (props) => {
           Javascript, and from there to React and Node.js. Even though
           Javascript is still primarily a client side technology, I love the
           logic and problem solving inherent to backend work. This all leads up
-          to my latest endeavor, attempting to get a Oracle Java certification
+          to my latest endeavor, attempting to get an Oracle Java certification
           this summer and hopefully in the near future being able to comfortably
           work with frameworks such as Spring.
         </p>
         <div style={{ height: 8 }}></div>
         <p className="mobileTextAdjust">
           What I love most about development is that there never comes a point
-          in which you know everything. I've always loved learning. Whether
-          that's trying to figure out the mysteries of the universe and
-          existence itself, or spending 3 hours researching baby kangaroos... an
-          animal I'll almost surely never see, just because I read a short
-          article that fascinated me.
+          in which you know everything. I've always had a need to understand how
+          and why things work the way they do. Whether that's trying to figure
+          out the mysteries of the universe and existence itself, or spending 3
+          hours researching baby kangaroos... an animal I'll almost surely never
+          see, just because I read a short article that fascinated me.
         </p>
       </div>
       <TechIcons />
