@@ -29,11 +29,11 @@ const PortItem = ({ piece }) => {
         </p>
       </div>
       <div className="card-reveal">
-        <span className="card-title grey-text text-darken-4 mobileTextAdjustLarge">
+        <span className="card-title grey-text text-darken-4 ">
           {piece.title}
           <i className="material-icons right">close</i>
         </span>
-        <p className="mobileTextAdjust">{piece.description}</p>
+        <p>{piece.description}</p>
       </div>
     </div>
   );
