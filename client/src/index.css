@@ -106,14 +106,29 @@ form {
   background-color: #fff;
 }
 
+@media only screen and (min-width: 992px) {
+  .mobileOnlyBtn {
+    display: none;
+  }
+
+  .fixed-action-btn {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 1130px) {
   .formIcon {
     display: none;
   }
 
+  .aboutMeHeader {
+    font-size: 3.5rem;
+  }
+
+
   .portfolioLayout {
     margin-top: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
@@ -124,7 +139,26 @@ form {
   }
 
   .formMobileAdjust {
-    font-size: 4rem;
+    font-size: 2.5rem !important;
+    line-height: 2.5rem;
+    vertical-align: text-top;
+    transform: translateY(-10px);
+  }
+
+  .submitContactMobile {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .formSubmitBtn {
+    height: 3.5rem;
+    line-height: 2.5rem;
+  }
+
+  .formMobileAdjustInput {
+    font-size: 2.5rem !important;
+    line-height: 2.5rem;
+
   }
 
 
@@ -175,15 +209,7 @@ form {
   }
 }
 
-@media only screen and (min-width: 992px) {
-  .mobileOnlyBtn {
-    display: none;
-  }
 
-  .fixed-action-btn {
-    display: none;
-  }
-}
 
 /* Import from prior verison begins here */
 

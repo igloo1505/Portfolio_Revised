@@ -5,7 +5,9 @@ import TechIcons from "../components/TechIcons";
 const AboutMe = () => {
   return (
     <div className="row container">
-      <div className="infoCardHeader">About Me</div>
+      <div className="infoCardHeader">
+        <p className="aboutMeHeader">About Me</p>
+      </div>
       <div className="infoCard row">
         <div className="col s6 ProfileImage">
           <img src={TempImage} alt="" className="Image align-left" />

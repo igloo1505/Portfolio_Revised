@@ -43,7 +43,7 @@ const ContactForm = () => {
               onChange={(e) => setName(e.target.value)}
             />
             <label htmlFor="name" className="formMobileAdjust">
-              Name
+              <p className="formMobileAdjust">Name</p>
             </label>
           </div>
 
@@ -53,11 +53,11 @@ const ContactForm = () => {
               id="email"
               value={email}
               type="email"
-              className="validate"
+              className="validate formMobileAdjustInput"
               onChange={(e) => setEmail(e.target.value)}
             />
-            <label htmlFor="email" className="formMobileAdjust">
-              Email
+            <label htmlFor="email">
+              <p className="formMobileAdjust">Email</p>
             </label>
           </div>
         </div>
@@ -68,12 +68,12 @@ const ContactForm = () => {
           <div className="input-field col s12">
             <textarea
               id="message"
-              className="materialize-textarea"
+              className="materialize-textarea formMobileAdjust"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-            <label htmlFor="message" className="formMobileAdjust">
-              How can I help?
+            <label htmlFor="message">
+              <p className="formMobileAdjust">How can I help?</p>
             </label>
           </div>
         </div>
@@ -89,7 +89,7 @@ const ContactForm = () => {
             marginBottom: "40px",
           }}
         >
-          Submit
+          <p className="submitContactMobile">Submit</p>
         </button>
       </form>
     </div>
