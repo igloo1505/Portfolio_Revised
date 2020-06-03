@@ -10,7 +10,7 @@ import "../assets/triviaList.png";
 const PortItem = ({ piece }) => {
   console.log(piece.image);
   return (
-    <div className="card small">
+    <div className="card">
       <div className="card-image waves-effect waves-block waves-light">
         <img
           className="activator"
