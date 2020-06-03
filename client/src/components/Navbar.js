@@ -17,7 +17,7 @@ const Navbar = () => {
             class="sidenav-trigger black-text text-darken-2 triggerButton"
             style={{ marginLeft: "0px" }}
           >
-            <i class="material-icons">menu</i>
+            <i className="material-icons menuIcon">menu</i>
           </a>
           <ul className="right hide-on-med-and-down">
             <li>

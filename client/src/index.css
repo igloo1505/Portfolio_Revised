@@ -105,7 +105,7 @@ form {
   }
 
   .mobileTextAdjust {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 
   .formMobileAdjust {
@@ -125,8 +125,22 @@ form {
     transform: translateX(-30px);
   }
 
+  .techIcons {
+    font-size: 5.5rem !important;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
   .mobileTextAdjustLarge {
-    font-size: 5rem !important;
+    font-size: 3.5rem !important;
+  }
+
+  .menuIcon {
+    font-size: 48px !important;
+  }
+
+  .infoCardHeader {
+    font-size: 3.5rem;
   }
 
   .techIcons {
