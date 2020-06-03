@@ -29,6 +29,13 @@
   /* background-color: rgba(255, 255, 255, 0.7); */
 }
 
+.portfolioLayout {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
 form {
   background-color: rgba(255, 255, 255, 0.6);
 }
@@ -102,6 +109,13 @@ form {
 @media only screen and (max-width: 1130px) {
   .formIcon {
     display: none;
+  }
+
+  .portfolioLayout {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
   }
 
   .mobileTextAdjust {
@@ -181,12 +195,7 @@ form {
   color: #777777;
 }
 
-.portfolioLayout {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-}
+
 
 .demoLinks a {
   padding: 0px 10px;
@@ -201,10 +210,10 @@ form {
     overflow-y: hidden;
   }
 
-  .portfolioLayout {
+  /* .portfolioLayout {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
 
   .RandomDude {
     width: 250px;
