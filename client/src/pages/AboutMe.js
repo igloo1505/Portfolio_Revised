@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import TempImage from "../assets/ID_logo192_circular.png";
 import TechIcons from "../components/TechIcons";
 
-const AboutMe = () => {
+const AboutMe = (props) => {
+  useEffect(() => {
+    props.setPath("/");
+    console.log(props.curPath);
+  });
   return (
     <div className="row container">
       <div className="infoCardHeader">

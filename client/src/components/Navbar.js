@@ -2,8 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import logo from "../assets/dark_transparent.png";
 
-const Navbar = () => {
-  console.log(logo);
+const Navbar = (props) => {
   return (
     <nav className="navBar">
       <div className="nav-wrapper">
@@ -39,21 +38,52 @@ const Navbar = () => {
         </div>
       </div>
 
-      <ul class="sidenav" id="mobileMenu">
-        <li className="mobileLi" style={{ marginTop: "20px" }}>
-          <Link to="/">
-            <i className="material-icons left ">perm_identity</i>
+      <ul className="sidenav collection" id="mobileMenu">
+        <li
+          className="mobileLi collection-item"
+          style={
+            props.curPath === "/"
+              ? {
+                  background:
+                    "linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%)",
+                  marginTop: "40px",
+                }
+              : { marginTop: "40px" }
+          }
+        >
+          <Link to="/" onClick={() => props.sideNavClose()}>
+            <i className="material-icons left">perm_identity</i>
             <span className="mobileNavLink">About Me</span>
           </Link>
         </li>
-        <li className="mobileLi">
-          <Link to="/portfolio">
+        <li
+          className="mobileLi collection-item"
+          style={
+            props.curPath === "/portfolio"
+              ? {
+                  background:
+                    "linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%)",
+                }
+              : {}
+          }
+        >
+          <Link to="/portfolio" onClick={() => props.sideNavClose()}>
             <i className="material-icons left ">lightbulb_outline</i>
             <span className="mobileNavLink">My Work</span>
           </Link>
         </li>
-        <li className="mobileLi">
-          <Link to="/contact">
+        <li
+          className="mobileLi collection-item"
+          style={
+            props.curPath === "/contact"
+              ? {
+                  background:
+                    "linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%)",
+                }
+              : {}
+          }
+        >
+          <Link to="/contact" onClick={() => props.sideNavClose()}>
             <i className="material-icons left ">email</i>
             <span className="mobileNavLink">Contact Me</span>
           </Link>

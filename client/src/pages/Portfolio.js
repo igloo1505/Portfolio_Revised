@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PortItem from "../components/PortItem";
 import portArray from "../components/portArray.json";
 
-const Portfolio = () => {
+const Portfolio = (props) => {
+  useEffect(() => {
+    props.setPath("/portfolio");
+    console.log(props.curPath);
+  });
   return (
     <div className="container">
       <div className="portfolioLayout">
