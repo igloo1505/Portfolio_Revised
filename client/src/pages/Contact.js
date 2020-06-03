@@ -36,8 +36,11 @@ const ContactForm = (props) => {
   return (
     <div className="row formRow cardStyle">
       <form onSubmit={onSubmit}>
-        <div className="row">
-          <div className="input-field col s12 m6 mobileAdjust">
+        <div className="row mobileRow">
+          <div
+            className="input-field col s12 m6 mobileAdjust"
+            style={{ marginTop: "50px" }}
+          >
             <i className="material-icons prefix formIcon">account_circle</i>
             <input
               id="name"
@@ -51,7 +54,10 @@ const ContactForm = (props) => {
             </label>
           </div>
 
-          <div className="input-field mobileAdjust col s12 m6">
+          <div
+            className="input-field mobileAdjust col s12 m6"
+            style={{ marginTop: "50px" }}
+          >
             <i className="material-icons prefix formIcon">mail</i>
             <input
               id="email"
@@ -67,7 +73,7 @@ const ContactForm = (props) => {
         </div>
         <div
           className="row mobileTweak"
-          style={{ margin: "auto", maxWidth: "80%" }}
+          style={{ margin: "auto", maxWidth: "95%", marginTop: "50px" }}
         >
           <div className="input-field col s12">
             <textarea
@@ -77,7 +83,7 @@ const ContactForm = (props) => {
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
             <label htmlFor="message">
-              <p className="formMobileAdjust">How can I help?</p>
+              <p className="formMobileAdjustMessage">How can I help?</p>
             </label>
           </div>
         </div>

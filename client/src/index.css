@@ -199,6 +199,13 @@ form {
     transform: translateY(-15px);
   }
 
+  .formMobileAdjustMessage {
+    font-size: 2.5rem !important;
+    line-height: 2.5rem;
+    vertical-align: text-top;
+    transform: translateY(-25px);
+  }
+
   .submitContactMobile {
     font-size: 2.5rem;
     line-height: 2.5rem;
@@ -287,6 +294,20 @@ form {
 @media only screen and (max-width: 1050px) {
   .main {
     overflow-y: hidden;
+  }
+
+  .mobileAdjust {
+    width: 80% !important
+  }
+
+  input {
+    width: 100% !important;
+
+  }
+
+  .mobileTweak {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   /* .portfolioLayout {
