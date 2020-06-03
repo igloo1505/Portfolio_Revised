@@ -134,6 +134,27 @@ form {
     grid-gap: 10px;
   }
 
+  .navBar {
+    height: 120px !important;
+  }
+
+  .navContainer {
+    line-height: 120px !important;
+  }
+
+  .triggerButton {
+    line-height: 120px !important;
+  }
+
+  .menuIcon {
+    margin-top: 20px;
+    font-size: 80px !important;
+  }
+
+  .navBarLogo {
+    height: 120px !important
+  }
+
   .mobileTextAdjust {
     font-size: 2.5rem;
   }
@@ -142,7 +163,7 @@ form {
     font-size: 2.5rem !important;
     line-height: 2.5rem;
     vertical-align: text-top;
-    transform: translateY(-10px);
+    transform: translateY(-15px);
   }
 
   .submitContactMobile {
@@ -184,9 +205,7 @@ form {
     font-size: 3.5rem !important;
   }
 
-  .menuIcon {
-    font-size: 48px !important;
-  }
+
 
   .infoCardHeader {
     font-size: 3.5rem;

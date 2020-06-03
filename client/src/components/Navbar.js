@@ -7,14 +7,14 @@ const Navbar = () => {
   return (
     <nav className="navBar">
       <div className="nav-wrapper">
-        <div className="container">
+        <div className="container navContainer">
           <Link to="/" className="brand-logo">
             <img className="navBarLogo" src={logo} alt="Igloo Development" />
           </Link>
           <a
             href="#"
             data-target="mobileMenu"
-            class="sidenav-trigger black-text text-darken-2 triggerButton"
+            className="sidenav-trigger black-text text-darken-2 triggerButton"
             style={{ marginLeft: "0px" }}
           >
             <i className="material-icons menuIcon">menu</i>
