@@ -30,7 +30,7 @@ const ContactForm = () => {
     }
   };
   return (
-    <div className="row formRow">
+    <div className="row formRow cardStyle">
       <form onSubmit={onSubmit}>
         <div className="row">
           <div className="input-field col s12 m6 mobileAdjust">
@@ -42,7 +42,9 @@ const ContactForm = () => {
               className="validate"
               onChange={(e) => setName(e.target.value)}
             />
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name" className="formMobileAdjust">
+              Name
+            </label>
           </div>
 
           <div className="input-field mobileAdjust col s12 m6">
@@ -54,7 +56,9 @@ const ContactForm = () => {
               className="validate"
               onChange={(e) => setEmail(e.target.value)}
             />
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email" className="formMobileAdjust">
+              Email
+            </label>
           </div>
         </div>
         <div
@@ -68,7 +72,9 @@ const ContactForm = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-            <label htmlFor="message">How can I help?</label>
+            <label htmlFor="message" className="formMobileAdjust">
+              How can I help?
+            </label>
           </div>
         </div>
         <button

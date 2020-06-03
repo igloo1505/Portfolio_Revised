@@ -12,33 +12,39 @@ const AboutMe = () => {
         </div>
 
         <p className="mobileTextAdjust">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit
-          minus distinctio? Fuga amet libero possimus facilis, eaque,
-          consequuntur quos explicabo commodi consectetur quisquam error vero
-          blanditiis qui! Iusto voluptate possimus dolorum beatae harum aliquid
-          autem illo tenetur ducimus deleniti accusantium perferendis
-          repudiandae, illum soluta, molestiae, consectetur reprehenderit
-          adipisci cum consequatur? Similique quisquam tempore incidunt sequi ab
-          quo sunt. Aut deserunt adipisci sed iusto quisquam impedit magnam eius
-          consectetur! Natus repellendus magni repellat hic nostrum rem beatae,{" "}
+          In college while studying Physics I took one course on computer
+          Programming. This was a freshman survey course; incredibly basic and
+          the course I looked forward to the least that year. That following
+          summer I ended up breaking my ankle, basically leaving me locked in my
+          apartment for 3 months with nothing to do. I started to play around
+          with different development technologies (Python originally), and
+          immediately became hooked.
         </p>
+        <div style={{ height: 8 }}></div>
         <p className="mobileTextAdjust">
-          aut vero facilis temporibus explicabo facere non labore illo ex qui
-          accusantium id odio laborum porro maxime molestiae cupiditate cumque.
-          Sunt, repellendus. Cupiditate vitae quaerat veniam facere at, nisi
-          assumenda repudiandae dolore a, sapiente excepturi nemo, ipsa fugiat
-          minus molestias dolorum expedita fugit!{" "}
+          From there I spent endless hours reading, watching tutorials, and
+          experimenting with different technologies and tools. This led to
+          Javascript, and from there to React and Node.js. Even though
+          Javascript is still primarily a front-end technology, I love the logic
+          and problem solving inherent to backend work. That all left me with my
+          latest undertaking, working towards a Java certification and hopefully
+          in the near future being able to comfortably work with frameworks such
+          as Spring.
         </p>
+        <div style={{ height: 8 }}></div>
         <p className="mobileTextAdjust">
-          Quisquam nobis est nisi corrupti aliquid illum possimus explicabo
-          totam dolores vitae dicta distinctio fuga quis autem ullam, temporibus
-          in tempore repudiandae odit officiis eveniet animi? Laboriosam maiores
-          perferendis illum eveniet repellat expedita ipsa quasi corporis magni
-          praesentium quo beatae, odit in unde veritatis ducimus dolore dolores
-          mollitia eligendi modi! Dolorem veniam molestiae dolores magni facere,
-          voluptas amet quod a reprehenderit, hic nisi ut fugiat asperiores.
-          Amet consequatur illum eaque a rem ut optio impedit nemo, qui ea
-          officiis itaque.
+          What I love most about development is that there never comes a point
+          in which you know everything. I've always loved learning. Whether
+          that's Physics and cosmology, ancient history, or anything in between,
+          I've always had a need to figure out how and why things work the way
+          they do. I spent three hours reading about baby kangaroos this past
+          weekend. An animal I'll almost surely never see, just because I found
+          them fascinating{" "}
+          <em>
+            (Did you know they're only 2cm tall, and weigh less than a gram when
+            they're born?!?!)
+          </em>
+          .
         </p>
       </div>
       <TechIcons />

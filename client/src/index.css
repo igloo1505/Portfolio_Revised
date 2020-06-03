@@ -39,9 +39,11 @@ form {
   border-right: 2px solid #ffff;
   border-left: 2px solid #ffff;
 }
+
 .mobileNavLink {
   font-size: 2rem;
 }
+
 .mobileLi {
   padding-top: 1.5rem;
 }
@@ -57,47 +59,76 @@ form {
   transform: translateX(-5px);
   margin-bottom: 30px;
 }
+
 .htmlIcon {
   color: #e64c22;
 }
+
 .cssIcon {
   color: #036fbb;
 }
+
 .jsIcon {
   color: #f0d91f;
 }
+
 .reactIcon {
   color: #61dbfc;
 }
+
 .nodeIcon {
   color: #82cd29;
 }
+
 .npmIcon {
   color: #cb3837;
 }
+
 .gitIcon {
   color: #f05133;
+}
+
+.mobileTextAdjust {
+  text-indent: 1rem;
+}
+
+.cardStyle {
+  /* shadowColor: "black", */
+  box-shadow: 2px 2px 0px 2px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 @media only screen and (max-width: 600px) {
   .formIcon {
     display: none;
   }
+
   .mobileTextAdjust {
-    font-size: 2rem;
+    font-size: 4rem;
   }
+
+  .formMobileAdjust {
+    font-size: 4rem;
+  }
+
+
   .navBar {
     height: 76px;
   }
+
   .navBarLogo {
     height: 76px;
   }
+
   .triggerButton {
     transform: translateX(-30px);
   }
+
   .mobileTextAdjustLarge {
-    font-size: 2.5rem !important;
+    font-size: 5rem !important;
   }
+
   .techIcons {
     margin: 7px;
     font-size: 2.3rem;
@@ -132,7 +163,7 @@ form {
   background-color: #fff;
 }
 
-.figurativeNothing > a {
+.figurativeNothing>a {
   color: #777777;
 }
 
@@ -196,7 +227,7 @@ form {
   }
 }
 
-.nav-wrapper > .brand-logo {
+.nav-wrapper>.brand-logo {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -221,7 +252,7 @@ form {
   padding-top: 20px;
 }
 
-.activeSection > a {
+.activeSection>a {
   color: #fff;
 }
 
